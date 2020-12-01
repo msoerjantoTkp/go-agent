@@ -1,4 +1,4 @@
-module github.com/newrelic/go-agent/v3/integrations/nrgrpc
+module github.com/iwanbk/go-agent/v3/integrations/nrgrpc
 
 // As of Dec 2019, the grpc go.mod file uses 1.11:
 // https://github.com/grpc/grpc-go/blob/master/go.mod
