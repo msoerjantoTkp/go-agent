@@ -9,8 +9,8 @@ import (
 	"os"
 
 	"github.com/labstack/echo/v4"
-	"github.com/newrelic/go-agent/v3/integrations/nrecho-v4"
-	"github.com/newrelic/go-agent/v3/newrelic"
+	"github.com/iwanbk/go-agent/v3/integrations/nrecho-v4"
+	"github.com/iwanbk/go-agent/v3/newrelic"
 )
 
 func getUser(c echo.Context) error {

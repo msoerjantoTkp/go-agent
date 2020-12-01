@@ -13,8 +13,8 @@ import (
 
 	// 1. Instead of importing github.com/snowflakedb/gosnowflake, import the
 	// nrsnowflake integration
-	_ "github.com/newrelic/go-agent/v3/integrations/nrsnowflake"
-	"github.com/newrelic/go-agent/v3/newrelic"
+	_ "github.com/iwanbk/go-agent/v3/integrations/nrsnowflake"
+	"github.com/iwanbk/go-agent/v3/newrelic"
 )
 
 func main() {

@@ -10,9 +10,9 @@ import (
 	"time"
 
 	"github.com/micro/go-micro"
-	"github.com/newrelic/go-agent/v3/integrations/nrmicro"
-	proto "github.com/newrelic/go-agent/v3/integrations/nrmicro/example/proto"
-	newrelic "github.com/newrelic/go-agent/v3/newrelic"
+	"github.com/iwanbk/go-agent/v3/integrations/nrmicro"
+	proto "github.com/iwanbk/go-agent/v3/integrations/nrmicro/example/proto"
+	newrelic "github.com/iwanbk/go-agent/v3/newrelic"
 )
 
 func main() {

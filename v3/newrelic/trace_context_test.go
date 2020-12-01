@@ -12,8 +12,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/newrelic/go-agent/v3/internal"
-	"github.com/newrelic/go-agent/v3/internal/crossagent"
+	"github.com/iwanbk/go-agent/v3/internal"
+	"github.com/iwanbk/go-agent/v3/internal/crossagent"
 )
 
 type fieldExpect struct {

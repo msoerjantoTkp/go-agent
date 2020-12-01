@@ -8,7 +8,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/newrelic/go-agent/v3/newrelic"
+	"github.com/iwanbk/go-agent/v3/newrelic"
 )
 
 func main() {

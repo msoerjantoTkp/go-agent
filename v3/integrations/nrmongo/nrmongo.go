@@ -35,8 +35,8 @@ import (
 	"regexp"
 	"sync"
 
-	"github.com/newrelic/go-agent/v3/internal"
-	newrelic "github.com/newrelic/go-agent/v3/newrelic"
+	"github.com/iwanbk/go-agent/v3/internal"
+	newrelic "github.com/iwanbk/go-agent/v3/newrelic"
 	"go.mongodb.org/mongo-driver/event"
 )
 
@@ -58,7 +58,7 @@ var connIDPattern = regexp.MustCompile(`([^:\[]+)(?::(\d+))?\[-\d+]`)
 // (https://godoc.org/go.mongodb.org/mongo-driver/event#CommandMonitor).  If
 // provided, the original `*event.CommandMonitor` will be called as well.  The
 // returned `*event.CommandMonitor` creates `newrelic.DatastoreSegment`s
-// (https://godoc.org/github.com/newrelic/go-agent#DatastoreSegment) for each
+// (https://godoc.org/github.com/iwanbk/go-agent#DatastoreSegment) for each
 // database call.
 //
 //	// Use `SetMonitor` to register the CommandMonitor.
