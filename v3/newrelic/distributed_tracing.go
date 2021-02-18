@@ -14,7 +14,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/newrelic/go-agent/v3/internal"
+	"github.com/iwanbk/go-agent/v3/internal"
 )
 
 type distTraceVersion [2]int

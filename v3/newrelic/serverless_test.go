@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/newrelic/go-agent/v3/internal/logger"
+	"github.com/iwanbk/go-agent/v3/internal/logger"
 )
 
 func serverlessGetenvShim(s string) string {
