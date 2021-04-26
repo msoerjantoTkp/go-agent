@@ -1,4 +1,4 @@
-module github.com/newrelic/go-agent/v3/integrations/nrlogrus
+module github.com/iwanbk/go-agent/v3/integrations/nrlogrus
 
 // As of Dec 2019, the logrus go.mod file uses 1.13:
 // https://github.com/sirupsen/logrus/blob/master/go.mod
