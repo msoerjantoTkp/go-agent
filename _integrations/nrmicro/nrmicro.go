@@ -15,8 +15,8 @@ import (
 	"github.com/micro/go-micro/registry"
 	"github.com/micro/go-micro/server"
 	newrelic "github.com/newrelic/go-agent"
-	"github.com/newrelic/go-agent/internal"
-	"github.com/newrelic/go-agent/internal/integrationsupport"
+	"github.com/iwanbk/go-agent/internal"
+	"github.com/iwanbk/go-agent/internal/integrationsupport"
 )
 
 type nrWrapper struct {

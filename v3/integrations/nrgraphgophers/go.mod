@@ -1,11 +1,9 @@
-module github.com/newrelic/go-agent/v3/integrations/nrgraphgophers
+module github.com/iwanbk/go-agent/v3/integrations/nrgraphgophers
 
-// As of Jan 2020, the graphql-go go.mod file uses 1.13:
-// https://github.com/graph-gophers/graphql-go/blob/master/go.mod
-go 1.13
+go 1.15
 
 require (
-	// graphql-go has no tagged releases as of Jan 2020.
-	github.com/graph-gophers/graphql-go v0.0.0-20200207002730-8334863f2c8b
-	github.com/newrelic/go-agent/v3 v3.0.0
+	github.com/iwanbk/go-agent/v3 v3.11.0
+	github.com/stretchr/testify v1.7.0 // indirect
+	github.com/tokopedia/graphql-go v1.3.5
 )

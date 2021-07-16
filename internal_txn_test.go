@@ -7,9 +7,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/newrelic/go-agent/internal"
-	"github.com/newrelic/go-agent/internal/cat"
-	"github.com/newrelic/go-agent/internal/sysinfo"
+	"github.com/iwanbk/go-agent/internal"
+	"github.com/iwanbk/go-agent/internal/cat"
+	"github.com/iwanbk/go-agent/internal/sysinfo"
 )
 
 func TestShouldSaveTrace(t *testing.T) {

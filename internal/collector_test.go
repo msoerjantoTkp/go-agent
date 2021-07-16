@@ -13,8 +13,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/newrelic/go-agent/internal/crossagent"
-	"github.com/newrelic/go-agent/internal/logger"
+	"github.com/iwanbk/go-agent/internal/crossagent"
+	"github.com/iwanbk/go-agent/internal/logger"
 )
 
 func TestResponseCodeError(t *testing.T) {

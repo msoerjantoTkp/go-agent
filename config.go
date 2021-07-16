@@ -10,7 +10,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/newrelic/go-agent/internal"
+	"github.com/iwanbk/go-agent/internal"
 )
 
 // Config contains Application and Transaction behavior settings.

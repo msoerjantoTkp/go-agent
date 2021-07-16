@@ -9,7 +9,7 @@ import (
 	"net"
 	"net/http"
 
-	"github.com/newrelic/go-agent/internal"
+	"github.com/iwanbk/go-agent/internal"
 )
 
 func (thd *thread) CloseNotify() <-chan bool {

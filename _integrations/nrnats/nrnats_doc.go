@@ -50,6 +50,6 @@
 // https://github.com/newrelic/go-agent/blob/master/_integrations/nrnats/examples/main.go
 package nrnats
 
-import "github.com/newrelic/go-agent/internal"
+import "github.com/iwanbk/go-agent/internal"
 
 func init() { internal.TrackUsage("integration", "framework", "nats") }

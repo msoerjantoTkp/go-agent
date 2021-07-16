@@ -11,12 +11,12 @@ import (
 	"strings"
 	"testing"
 
-	graphql "github.com/graph-gophers/graphql-go"
-	"github.com/graph-gophers/graphql-go/introspection"
-	"github.com/graph-gophers/graphql-go/relay"
 	"github.com/iwanbk/go-agent/v3/internal"
 	"github.com/iwanbk/go-agent/v3/internal/integrationsupport"
 	"github.com/iwanbk/go-agent/v3/newrelic"
+	graphql "github.com/tokopedia/graphql-go"
+	"github.com/tokopedia/graphql-go/introspection"
+	"github.com/tokopedia/graphql-go/relay"
 )
 
 func TestFieldManagementSync(t *testing.T) {

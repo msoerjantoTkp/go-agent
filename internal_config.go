@@ -10,9 +10,9 @@ import (
 	"os"
 	"strings"
 
-	"github.com/newrelic/go-agent/internal"
-	"github.com/newrelic/go-agent/internal/logger"
-	"github.com/newrelic/go-agent/internal/utilization"
+	"github.com/iwanbk/go-agent/internal/logger"
+	"github.com/iwanbk/go-agent/internal/utilization"
+	"github.com/iwanbk/go-agent/internal"
 )
 
 func copyDestConfig(c AttributeDestinationConfig) AttributeDestinationConfig {
