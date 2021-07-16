@@ -8,10 +8,10 @@ import (
 	"net/http"
 	"os"
 
-	graphql "github.com/graph-gophers/graphql-go"
-	"github.com/graph-gophers/graphql-go/relay"
 	"github.com/iwanbk/go-agent/v3/integrations/nrgraphgophers"
 	newrelic "github.com/iwanbk/go-agent/v3/newrelic"
+	graphql "github.com/tokopedia/graphql-go"
+	"github.com/tokopedia/graphql-go/relay"
 )
 
 type query struct{}

@@ -79,8 +79,8 @@ import (
 
 	sqlite3 "github.com/mattn/go-sqlite3"
 	newrelic "github.com/newrelic/go-agent"
-	"github.com/newrelic/go-agent/internal"
-	"github.com/newrelic/go-agent/internal/sqlparse"
+	"github.com/iwanbk/go-agent/internal"
+	"github.com/iwanbk/go-agent/internal/sqlparse"
 )
 
 var (

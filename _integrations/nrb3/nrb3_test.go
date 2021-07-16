@@ -8,8 +8,8 @@ import (
 	"testing"
 
 	newrelic "github.com/newrelic/go-agent"
-	"github.com/newrelic/go-agent/internal"
-	"github.com/newrelic/go-agent/internal/integrationsupport"
+	"github.com/iwanbk/go-agent/internal"
+	"github.com/iwanbk/go-agent/internal/integrationsupport"
 )
 
 func TestNewRoundTripperNil(t *testing.T) {

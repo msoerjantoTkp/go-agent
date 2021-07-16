@@ -17,8 +17,8 @@ import (
 	"github.com/aws/aws-sdk-go/service/dynamodb"
 	"github.com/aws/aws-sdk-go/service/lambda"
 	newrelic "github.com/newrelic/go-agent"
-	"github.com/newrelic/go-agent/internal"
-	"github.com/newrelic/go-agent/internal/integrationsupport"
+	"github.com/iwanbk/go-agent/internal"
+	"github.com/iwanbk/go-agent/internal/integrationsupport"
 )
 
 func testApp() integrationsupport.ExpectApp {

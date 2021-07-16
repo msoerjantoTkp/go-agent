@@ -19,7 +19,7 @@ import (
 
 	"github.com/labstack/echo"
 	newrelic "github.com/newrelic/go-agent"
-	"github.com/newrelic/go-agent/internal"
+	"github.com/iwanbk/go-agent/internal"
 )
 
 func init() { internal.TrackUsage("integration", "framework", "echo") }

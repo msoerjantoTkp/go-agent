@@ -3,7 +3,7 @@
 
 package newrelic
 
-import "github.com/newrelic/go-agent/internal"
+import "github.com/iwanbk/go-agent/internal"
 
 // StackTracer can be implemented by errors to provide a stack trace when using
 // Transaction.NoticeError.

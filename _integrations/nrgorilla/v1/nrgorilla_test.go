@@ -10,8 +10,8 @@ import (
 
 	"github.com/gorilla/mux"
 	newrelic "github.com/newrelic/go-agent"
-	"github.com/newrelic/go-agent/internal"
-	"github.com/newrelic/go-agent/internal/integrationsupport"
+	"github.com/iwanbk/go-agent/internal"
+	"github.com/iwanbk/go-agent/internal/integrationsupport"
 )
 
 func makeHandler(text string) http.Handler {

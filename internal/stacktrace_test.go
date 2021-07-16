@@ -9,7 +9,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/newrelic/go-agent/internal/stacktracetest"
+	"github.com/iwanbk/go-agent/internal/stacktracetest"
 )
 
 func TestGetStackTrace(t *testing.T) {
@@ -62,12 +62,12 @@ func TestStacktraceFrames(t *testing.T) {
 	// This stacktrace taken from Go 1.11
 	inputFrames := []stacktraceFrame{
 		{
-			File: "/Users/will/Desktop/gopath/src/github.com/newrelic/go-agent/internal/stacktrace.go",
-			Name: "github.com/newrelic/go-agent/internal.GetStackTrace",
+			File: "/Users/will/Desktop/gopath/src/github.com/iwanbk/go-agent/internal/stacktrace.go",
+			Name: "github.com/iwanbk/go-agent/internal.GetStackTrace",
 			Line: 17,
 		},
 		{
-			File: "/Users/will/Desktop/gopath/src/github.com/newrelic/go-agent/internal_txn.go",
+			File: "/Users/will/Desktop/gopath/src/github.com/iwanbk/go-agent/internal_txn.go",
 			Name: "github.com/newrelic/go-agent.(*txn).NoticeError",
 			Line: 696,
 		},
@@ -77,7 +77,7 @@ func TestStacktraceFrames(t *testing.T) {
 			Line: 1,
 		},
 		{
-			File: "/Users/will/Desktop/gopath/src/github.com/newrelic/go-agent/internal_attributes_test.go",
+			File: "/Users/will/Desktop/gopath/src/github.com/iwanbk/go-agent/internal_attributes_test.go",
 			Name: "github.com/newrelic/go-agent.TestAddAttributeSecurityPolicyDisablesInclude",
 			Line: 68,
 		},

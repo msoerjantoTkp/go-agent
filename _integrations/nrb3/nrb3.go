@@ -8,7 +8,7 @@ import (
 	"time"
 
 	newrelic "github.com/newrelic/go-agent"
-	"github.com/newrelic/go-agent/internal"
+	"github.com/iwanbk/go-agent/internal"
 )
 
 func init() { internal.TrackUsage("integration", "b3") }

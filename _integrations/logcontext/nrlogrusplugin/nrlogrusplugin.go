@@ -73,8 +73,8 @@ import (
 
 	newrelic "github.com/newrelic/go-agent"
 	"github.com/newrelic/go-agent/_integrations/logcontext"
-	"github.com/newrelic/go-agent/internal"
-	"github.com/newrelic/go-agent/internal/jsonx"
+	"github.com/iwanbk/go-agent/internal"
+	"github.com/iwanbk/go-agent/internal/jsonx"
 	"github.com/sirupsen/logrus"
 )
 

@@ -8,7 +8,7 @@ package nrzap
 
 import (
 	newrelic "github.com/newrelic/go-agent"
-	"github.com/newrelic/go-agent/internal"
+	"github.com/iwanbk/go-agent/internal"
 	"go.uber.org/zap"
 )
 

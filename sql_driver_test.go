@@ -11,7 +11,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/newrelic/go-agent/internal"
+	"github.com/iwanbk/go-agent/internal"
 )
 
 var (
