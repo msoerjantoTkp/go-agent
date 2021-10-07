@@ -1,4 +1,4 @@
-module github.com/newrelic/go-agent/v3/integrations/nrgorilla
+module github.com/iwanbk/go-agent/v3/integrations/nrgorilla
 
 // As of Dec 2019, the gorilla/mux go.mod file uses 1.12:
 // https://github.com/gorilla/mux/blob/master/go.mod
